@@ -1,0 +1,70 @@
+/*GenshinImpact Theme CSS
+
+CSS by Abyy#1705 and Rin ;-;#7349
+
+Ign: OofAbyy ; hoanglinh0109*/
+
+/*Update & Import URL, DO NOT TOUCH*/
+@import url(https://oofabyy.github.io/GITheme.css);
+
+/*Customization*/
+/*Instruction:
+For characters, use the link of the character you want then replace the links of "--card" and "--profile";
+*/
+:root {
+  --accent: #5c5c5c;
+  --text: #ebe4d7;
+  --background: #50596b;
+  --black: #000000;
+  --sidebar: #d2bb8e;
+  --border: #363636;
+  --profile: url(https://cdn.discordapp.com/attachments/925735566727868476/939002630649290832/Character_Aether_Thumb.png);
+  /*Default is Traveller*/
+  --card: url(https://cdn.discordapp.com/attachments/925735566727868476/939002630364094474/Namecard_Background_Genshin_Impact_A_New_World.png);
+  /*Default is Traveller*/
+  --uiscale: 0.6;
+  --ammo: #df4e40;
+  --hud-text-shadow: 0 0 0 var(--black), 1px 0 0 var(--black),
+    -1px 0 var(--black), 0 -1px var(--black), 0 1px var(--black),
+    1px 1px var(--black), 1px -1px var(--black), -1px 1px var(--black),
+    -1px -1px var(--black), 0 2px var(--black), 0 -2px var(--black),
+    2px 0 var(--black), -2px 0 var(--black), 1px 2px var(--black),
+    -1px 2px var(--black), 1px -2px var(--black), -1px -2px var(--black),
+    2px 2px var(--black), -2px 2px var(--black), 2px -2px var(--black),
+    -2px -2px var(--black), 0 0 2px var(--black), 0 0 2px var(--black),
+    0 0 2px var(--black);
+}
+/*Optional Characters:
+>Keqing:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/939002569550876692/Outfit_Opulent_Splendor_Thumb.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939002628963184670/Namecard_Background_Keqing_Lightning_Stiletto.png
+  
+>Diluc:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/939002569055940678/Character_Diluc_Thumb.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939002629709766677/Namecard_Background_Diluc_Flames.png
+  
+>Hutao:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/928442499750567976/256.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939004397143343174/Namecard_Background_Hu_Tao_Spirit_Soother.png
+  
+>Kokomi:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/939002568795901982/Character_Sangonomiya_Kokomi_Thumb.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939002628682154014/Namecard_Background_Sangonomiya_Kokomi_The_Deep.png
+
+>Ayaka:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/939002568305152040/Character_Kamisato_Ayaka_Thumb.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939002629189668944/Namecard_Background_Kamisato_Ayaka_Folding_Fan.png
+
+>Xiao:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/939002569265672202/Character_Xiao_Thumb.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939002628396945458/Namecard_Background_Xiao_Mask.png
+
+>Ganyu:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/939002570070958080/Character_Ganyu_Thumb.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939002629479092334/Namecard_Background_Ganyu_Qilin.png
+
+>Zhongli:
+  profile:https://cdn.discordapp.com/attachments/925735566727868476/939002570381332510/Character_Zhongli_Thumb.png
+  namecard:https://cdn.discordapp.com/attachments/925735566727868476/939002628136923186/Namecard_Background_Zhongli_Planet_Befall.png
+
+*/
