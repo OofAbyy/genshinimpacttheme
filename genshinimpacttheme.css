@@ -389,9 +389,7 @@ span[style="color:#fbc02d"] {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 2% !important;
   grid-row-gap: 4% !important;
-  height: max-content;
-  justify-content: center;
-  align-items: center;
+  height: 240px;
 }
 .button.small:hover {
   background-color: #374052;
